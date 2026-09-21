@@ -1,0 +1,20 @@
+Create a welp.html form page for a website called "Welp".
+
+Welp is like Yelp, for ______. Just as Yelp helps people 
+    discover and review restaurants, Welp helps users share 
+    reviews within a specific category.
+
+Which category? You decide! 😱
+
+After setting up the file, add a <form> element with:
+
+    1) *Name of the item being reviewed.
+    2) Three "radio" buttons for "Would you try it again?"
+    3) *A review rating from 1 to 5.
+    4) A <textarea> for a comment (max 250 characters).
+    5) A "submit" button that says "Submit Review".
+    ** Fields marked with an asterisk (*) are required.
+
+Make sure to add labels and validate the inputs!
+
+After you're finished, share a pic of your form on Twitter/X!

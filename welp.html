@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welp</title>
+    </head>
+    <style>
+        * {
+            padding-left: 10px;
+        }
+    </style>
+    <body>
+    <!-- Welp is like Yelp, for ______ . You pick the category! -->
+        <form>
+            <h2>Welp ⭐⭐⭐⭐⭐</h2>
+
+            <!-- Required: a labeled text input for the name of 
+            the item being reviewed -->
+            <label for="name">Item Name 🏷️:</label>
+            <input type="text" placeholder="Item Name"
+                id="name" required>
+
+            <br><br>
+            <!-- 3 radio inputs for "Would you try it again?" 
+            (share one name) -->
+            Would you try/buy it again? 🔄️<br>
+            <input type="radio" name="try-again"> Yes <br>
+            <input type="radio" name="try-again"> No <br>
+            <input type="radio" name="try-again"> Maybe <br>
+
+            <br>
+            <!-- Required: a rating from 1 to 5 
+            (number input with min and max) -->
+            Your Rating ⭐⭐⭐⭐⭐<br>
+            (1 = Bad --- 5 = Great):<br>
+            <input type="number" min="1" max="5" required>
+
+            <br><br>
+            <!-- A textarea for a comment (maxlength="250") -->
+            Any Comments? 🗣️<br>
+            <textarea rows="10" cols="25"
+                placeholder="Enter your comments here."></textarea>
+
+            <br><br>
+            <!-- A submit input with value "Submit Review" -->
+            <input type="submit" value="Submit Review 📩">
+            <br><br>
+        </form>
+    </body>
+</html>
+
+<!--
+**********REQUIREMENTS
+Create a welp.html form page for a website called "Welp".
+
+Welp is like Yelp, for ______. Just as Yelp helps people 
+    discover and review restaurants, Welp helps users share 
+    reviews within a specific category.
+
+Which category? You decide! 😱
+
+After setting up the file, add a <form> element with:
+
+    1) *Name of the item being reviewed.
+    2) Three "radio" buttons for "Would you try it again?"
+    3) *A review rating from 1 to 5.
+    4) A <textarea> for a comment (max 250 characters).
+    5) A "submit" button that says "Submit Review".
+    ** Fields marked with an asterisk (*) are required.
+
+Make sure to add labels and validate the inputs!
+
+After you're finished, share a pic of your form on Twitter/X!
+-->
