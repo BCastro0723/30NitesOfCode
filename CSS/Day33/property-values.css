@@ -1,0 +1,17 @@
+element {
+    property: value;
+}
+/* Asterik selects the entire document! */
+/* Also comments are different in CSS lol */
+* {
+    property: value;
+}
+div {
+    background-color: pink;
+}
+.class-name {
+    background-color: salmon;
+}
+#unique-id {
+    background-color: magenta;
+}
