@@ -1,11 +1,14 @@
+/*
 element {
     property: value;
 }
+*/
 /* Asterik selects the entire document! */
 /* Also comments are different in CSS lol */
-* {
+/* {
     property: value;
 }
+*/
 div {
     background-color: pink;
 }

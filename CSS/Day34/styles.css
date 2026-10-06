@@ -1,0 +1,14 @@
+/*
+element {
+    property: value;
+}
+*/
+.example {
+    width: 100%;
+    height: 30px;
+    background-color: maroon;
+}
+
+#special {
+    background-color: blueviolet;
+}
