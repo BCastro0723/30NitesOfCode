@@ -1,0 +1,6 @@
+div, article, section {
+    background-color: palevioletred;
+    text-align: center;
+    border: 5px solid;
+    text-decoration: underline;
+}

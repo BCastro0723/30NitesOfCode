@@ -1,0 +1,11 @@
+nav > ul > li {
+    background-color: bisque;
+}
+
+ul > li {
+    background-color: #FFBF00;
+}
+
+ol > li {
+    background-color: #7DF9FF;
+}
