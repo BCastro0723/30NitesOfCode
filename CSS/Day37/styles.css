@@ -1,0 +1,44 @@
+/* Write code below 💖 */
+
+body {
+  background: linear-gradient(lightpink, purple) no-repeat;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main, header, footer {
+    width: 70%;
+    margin: auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header > img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+#section-2 {
+    text-align: right;
+}
+
+#section-4 {
+    text-align: right;
+}
+
+section > figure > img {
+    border: 2px solid;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+figcaption {
+    font-size: 11px;
+}
