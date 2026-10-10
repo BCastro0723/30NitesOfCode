@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+header, body {
+    background-color: lightslategrey;
+}
+
+div {
+    width: 100%;
+    height: 100px;
+}
+
+#top {
+    /* background-color: rgb(69, 121, 212); */
+    background-color: #00FFFF; /* Hex > Cyan */
+    align-content: center;
+}
+
+#middle {
+    /* background-color: rgb(200, 150, 50); */
+    background-color: #FFBF00; /* Hex > Amber */
+    align-content: center;
+}
+
+#bottom {
+    /* background-color: rgb(67, 67, 67); */
+    background-color: #9F2B68; /* Hex > Amaranth */
+    align-content: center;
+}
+
+
