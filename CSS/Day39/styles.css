@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+div {
+    text-align: center;
+    align-content: center;
+}
+
+/* Absolute Units */
+/*
+#top {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(250, 160, 160);
+}
+
+#middle {
+    width: 550pt;
+    height: 100pt;
+    background-color: lightgreen;
+}
+
+#bottom {
+    width: 20cm;
+    height: 4cm;
+    background-color: #ADD8E6;
+}
+*/
+
+/* Relative Units */
+
+header {
+    height: 10vh;
+}
+
+#top {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(250, 160, 160);
+}
+
+#middle {
+    width: 75%;
+    height: 25vh;
+    background-color: lightgreen;
+}
+
+#bottom {
+    width: 50%;
+    height: 15vh;
+    background-color: #ADD8E6;
+}
