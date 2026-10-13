@@ -1,0 +1,22 @@
+* {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, serif;
+}
+
+#georgia {
+    font-family: Georgia, serif;
+}
+
+#times-new-roman {
+    font-family: 'Times New Roman', serif;
+}
+
+#baskerville {
+    font-family: Baskerville, serif;
+}
+
+

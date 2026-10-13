@@ -1,0 +1,22 @@
+* {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#consolas {
+    font-family: Consolas, monospace;
+}
+
+#courier-new {
+    font-family: 'Courier New', monospace;
+}
+
+#lucida-console {
+    font-family: 'Lucida Console', monospace;
+}
+
+

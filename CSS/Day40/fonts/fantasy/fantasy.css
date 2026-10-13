@@ -1,0 +1,22 @@
+* {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+#fantasy {
+    font-family: fantasy;
+}
+
+#impact {
+    font-family: Impact, fantasy;
+}
+
+#chiller {
+    font-family: Chiller, fantasy;
+}
+
+#jokerman {
+    font-family: Jokerman, fantasy;
+}
+
+
