@@ -1,0 +1,28 @@
+* {
+    background-color: lightgray;
+    text-align: center;
+    /* font-size: 1em; */
+    /* font-size: 2em; */
+    /* font-size: 1rem; */
+    font-size: 2rem;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#sans-serif {
+    font-family: 'Sans Serif';
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#fantasy {
+    font-family: fantasy;
+}

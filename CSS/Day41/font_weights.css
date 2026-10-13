@@ -1,0 +1,32 @@
+/*
+Anything less than 400 makes the font thinner or lighter.
+The 400-700 range is considered "normal" for most fonts.
+Anything above 700 usually makes the font bolder.
+*/
+* {
+    background-color: lightgray;
+    text-align: center;
+    /* font-weight: 100; */
+    /* font-weight: 550; */
+    font-weight: 1000;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#sans-serif {
+    font-family: 'Sans Serif';
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#fantasy {
+    font-family: fantasy;
+}

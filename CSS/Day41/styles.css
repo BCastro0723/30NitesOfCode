@@ -1,0 +1,24 @@
+* {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#sans-serif {
+    font-family: 'Sans Serif';
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#fantasy {
+    font-family: fantasy;
+}
