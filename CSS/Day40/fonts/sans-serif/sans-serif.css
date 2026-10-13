@@ -1,0 +1,22 @@
+* {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+#sans-serif {
+    font-family: sans-serif;
+}
+
+#arial {
+    font-family: Arial, sans-serif;
+}
+
+#helvetica-neue {
+    font-family: 'Helvetica-Neue', sans-serif;
+}
+
+#open-sans {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+

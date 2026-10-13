@@ -1,0 +1,22 @@
+* {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#brush-script-mt {
+    font-family: 'Brush Script MT', cursive;
+}
+
+#lobster {
+    font-family: Lobster, cursive;
+}
+
+#dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+
