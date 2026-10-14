@@ -1,0 +1,22 @@
+* {
+    font-family: 'Courier New', monospace;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+#left {
+    background-color: lightcoral;
+    text-align: left;
+}
+
+#center {
+    background-color: lightpink;
+    text-align: center;
+}
+
+#right {
+    background-color: lightsalmon;
+    text-align: right;
+}

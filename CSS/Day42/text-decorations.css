@@ -1,0 +1,19 @@
+#first-p {
+    text-decoration: underline;
+}
+
+#second-p {
+    text-decoration: overline;
+}
+
+#third-p {
+    text-decoration: line-through;
+} 
+
+#fourth-p {
+    text-decoration: underline wavy;
+}
+
+#fifth-p {
+    text-decoration: line-through dotted;
+}
