@@ -1,0 +1,26 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+}
+
+div {
+    background-image: url('https://reptilesofutah.com/wp-content/uploads/2026/01/dsc_6156.jpg?w=1024');
+    background-size: contain;
+    width: 512px;
+    height: 341px;
+    justify-self: center;
+}
+
+/* h3 {
+    font-family: Lobster, cursive;
+    font-weight: 850;
+    font-size: 48px;
+} */
+
+h3 {
+    font: 850 48px Lobster, cursive;
+}

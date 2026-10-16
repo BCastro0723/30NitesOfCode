@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: lightgreen;
+    width: 100%;
+}
+
+div {
+    background-image: url('https://minecraft-max.net/upload/iblock/004/0044a60f9b062cb6bad14cccdc4acf2b.png');
+    width: 320px;
+    height: 320px;
+    justify-self: center;
+}
+
+/* #diamond {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #023020;
+} */
+
+#diamond {
+    border: 10px dashed #023020;
+}
+
+
