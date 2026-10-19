@@ -1,0 +1,31 @@
+a:hover::before {
+  content: "Exotic Butters 🧺🧈🎀";
+  position: absolute;
+  top: 55px;
+  bottom: 0;
+  width: 38%;
+  height: max-content;
+  border: 2px solid;
+  background-color: lightyellow;
+  color: black;
+  padding: 2px;
+  text-align: center;
+}
+
+a::after {
+  background-image: url('https://static.wikia.nocookie.net/triple-a-fazbear/images/3/35/Exotic_Butters.png');
+  background-size: 10px 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content:"";
+  margin-left: 2.5px;
+}
+
+html {
+    background-image: url('https://static.wikia.nocookie.net/triple-a-fazbear/images/3/35/Exotic_Butters.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+}

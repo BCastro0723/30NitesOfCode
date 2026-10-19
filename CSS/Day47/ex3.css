@@ -1,0 +1,11 @@
+p::first-line {
+    font: 900 1.5em sans;
+}
+
+html {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH_EpHmk_NJn26OwFxGkoMiill6gs_eNHy2k5oQCDXnl3kakYyLuzwKU0&s=10');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}

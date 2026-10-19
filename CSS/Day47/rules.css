@@ -1,0 +1,30 @@
+/* We cannot use the same pseudo-element more than once on a selected element. */
+paragraph-element::before {
+  content: "These";
+  font-size: 1.5em;
+}
+
+paragraph-element::before {
+  content: "Will not work";
+  background-color: green;
+}
+
+paragraph-element::first-letter {
+  font-family: "Helvetica";
+}
+
+paragraph-element::first-letter {
+  background-color: purple;
+}
+
+
+/* Pseudo-elements must also be the last part of the selector. */
+p::after.class {
+  content: " This won't work either!";
+  text-decoration: underline;
+}
+
+p.class::after {
+  content: " This will work!";
+  text-decoration: underline;
+}

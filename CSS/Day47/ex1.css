@@ -1,0 +1,8 @@
+* {
+    background-color: grey;
+    font: 700 32px Arial, sans;
+}
+
+p::before {
+    content: " 👋";
+}
