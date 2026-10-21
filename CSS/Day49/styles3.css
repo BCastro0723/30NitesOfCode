@@ -1,0 +1,14 @@
+#first {
+  border: 2px solid #FFC000;
+  border-radius: 5px;
+}
+
+#second {
+  border: 2px solid #FFC000;
+  border-radius: 10px;
+}
+
+#third {
+  border: 2px solid #FFC000;
+  border-radius: 20px;
+}

@@ -1,0 +1,27 @@
+/* h1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: tan;
+}  */
+ 
+h1 {
+    border: 3px solid tan;
+}  
+
+/* figure > img {
+    width: 100%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #7B3F00;
+} */
+ 
+figure > img {
+    width: 100%;
+    border: 10px solid #7B3F00;
+} 
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+

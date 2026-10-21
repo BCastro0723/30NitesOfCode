@@ -1,0 +1,18 @@
+#top {
+    border: 1px solid red;
+}
+
+#middle {
+    border: 5px dotted rgb(248, 222, 126);
+}
+
+#bottom {
+    border: 20px dashed #40E0D0;
+}
+
+#bonus {
+    border-top: 5px dashed red;
+    border-right: 5px dotted purple;
+    border-bottom: 5px double yellow;
+    border-left: 5px solid green;
+}
