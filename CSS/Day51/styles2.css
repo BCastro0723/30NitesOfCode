@@ -1,0 +1,13 @@
+#outer-element {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(53, 57, 53);
+}
+
+#inner-element {
+    width: 252px;
+    height: 275px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBbWzv1cnkxRR4iRC9z9v08PUqBdmNjOQo-FtY9FzXlw&s=10');
+    background-size: contain;
+    margin: auto;
+}
