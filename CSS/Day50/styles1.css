@@ -1,0 +1,13 @@
+main > p {
+    border: 3px solid black;
+}
+
+/* 
+p {
+    padding: 25px;
+} */
+
+
+p {
+    padding: 25px 25px 25px 25px;
+}
