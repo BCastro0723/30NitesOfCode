@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Sizing 📦</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Box Sizing 📦</h1>
+        </header>
+        <main>
+            <div id="content-box">
+                <p><b>
+                    Width: 150px
+                    <br>
+                    Padding: +20px
+                    <br>
+                    Border: +2px
+                </b></p>
+            </div>
+            <p>
+                <b>Element Width = 194px (Content Width: 150px + Padding: (20px * 2) + Border (2px * 2))</b>
+            </p>
+            <div id="border-box">
+                <p><b>
+                    Width: 106px
+                    <br>
+                    Padding: 20px
+                    <br>
+                    Border: 2px
+                    <br>
+                    Total Width: <u>150px</u>
+                </b></p>
+            </div>
+            <p>
+                <b>Element Width = 150px (Content Width: 106px + Padding: (20px * 2) + Border (2px * 2))</b>
+            </p>
+        </main>
+    </body>
+</html>
