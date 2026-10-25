@@ -1,4 +1,12 @@
+* {
+    margin: 10px;
+}
+
 #top {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+
     border: 1px solid red;
 }
 
