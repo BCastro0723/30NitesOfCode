@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://i.redd.it/ooxq12he1i4e1.jpg');
+    background-size: cover;
+    background-color: rgb(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: rgb(53, 57, 53, 0.75);
+}
+
+#first, #second, #third, #fourth {
+    /* display: block; */
+    /* display: inline-block; */
+    display: inline;
+
+    margin: -1.5px;
+    /* padding: 20px; */
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
+    width: 25%;
+    height: 130px;
+}
+
+#first {
+    border: 2px solid rgb(2, 48, 32);
+    background-image: url('https://static.wikia.nocookie.net/characterprofile/images/d/dc/Montgomery_Gator.png');
+    background-size: cover;
+    background-color: rgb(144, 238, 144);
+}
+
+#second {
+    border: 2px solid #966919;
+    background-image: url('https://static.wikia.nocookie.net/triple-a-fazbear/images/6/60/Glamrock_freddy_by_Scrappyboi.png');
+    background-size: cover;
+    background-color: #C4A484;
+}
+
+#third {
+    border: 2px solid rgb(255, 105, 180);
+    background-image: url('https://static.wikia.nocookie.net/fnaf-mega-pizzaplex/images/5/52/GlamrockChica-Render.png');
+    background-size: cover;
+    background-color: rgb(255, 182, 193);
+}
+
+#fourth {
+    border: 2px solid #CF9FFF;
+    background-image: url('https://static.wikia.nocookie.net/triple-a-fazbear/images/4/47/Roxy_by_Scrappyboi.png');
+    background-size: cover;
+    background-color: #CBC3E3;
+}
