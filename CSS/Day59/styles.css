@@ -1,6 +1,6 @@
 body {
     background-color: rgb(75, 75, 75);
-    margin: 25px;
+    margin: 50px;
 }
 main {
     background-color: rgb(125, 125, 125);
@@ -8,6 +8,18 @@ main {
 div {
     width: 150px;
     height: 150px;
+}
+#eighth {
+    position: fixed;
+    top: 45%;
+    /* left: 0px; */
+    /* bottom: 0px; */
+    right: 45%;
+    background-color: #191970;
+    background-image: url('https://static.wikia.nocookie.net/theremasteredroleplay/images/4/45/RuinedEclipseIcon.png');
+    background-size: cover;
+    border: 5px solid black;
+    box-sizing: border-box;
 }
 #first {
     background-color: red;
@@ -29,8 +41,4 @@ div {
 }
 #seventh {
     background-color: violet;
-}
-#absolute {
-    position: absolute;
-    background-color: rgb(255, 16, 240);
 }
