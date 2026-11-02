@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(50, 50, 50);
+}
+
 #first, #second, #third {
     width: 200px;
     height: 200px;

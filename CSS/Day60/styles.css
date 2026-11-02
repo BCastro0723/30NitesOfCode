@@ -28,6 +28,8 @@ div {
 #second {
     background-color: rgb(255, 165, 0);
     border: 5px solid #8B4000;
+    /* 
+     */
 }
 #inner-second {
     background-color: #8B4000;
@@ -44,6 +46,8 @@ div {
 #fourth {
     background-color: green;
     border: 5px solid #023020;
+    /* position: sticky;
+    top: 0px; */
 }
 #fifth {
     background-color: rgb(0, 0, 255);
