@@ -2,71 +2,84 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #36454F;
 }
 
 body {
   font-family: 'Playfair Display', Georgia, serif;
-  /* font-family: Arial, Helvetica, sans-serif; */
-}
-
-.section-title {
-    position: sticky;
-    top: 202px;
-    background-color: lightslategrey;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.btn {
-    display: inline-block;
-    margin: 10px;
-    width: 25%;
-    height: 10%;
-    background-color: #1434A4;
-    border: 2px solid black;
-    border-radius: 10px;
-    color: black;
 }
 
 img, .gallery-item > p {
   width: 500px;
 }
 
-hr {
-  border: 2px solid;
-  position: sticky;
-  top: 200px;
+.section-title {
+    position: sticky;
+    top: 25vh;
+    background-color: rgb(115, 147, 179);
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(65, 97, 129);
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    align-content: center;
+}
+
+.painting {
+    width: 25%;
+    display: inline-block;
+    /* display: block; */
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0px 10px 0px 10px;
+}
+
+.painting > img {
+    width: 100%;
+    border: 5px solid #5C4033;
+    border-radius: 5px;
 }
 
 #gallery-container {
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  font-size: large;
+    background-color: rgb(69, 69, 69);
+    position: fixed;
+    padding: 2%;
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    font-size: 1.25rem;
+    z-index: 2;
 }
 
-#gallery-header {
-  padding-bottom: 10px;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-#gallery-header > h1 {
-  margin-left: 0;
-}
-
-#gallery-header > p {
-  color: #5e96ff;
-  font-weight: 800;
-  font-family: 'Playfair Display', Georgia, serif;
-  text-align: center;
-  padding-bottom: 10px;
+#gallery-container > p {
+    padding: 1%;
+    font-weight: 800;
+    font-style: italic;
 }
 
 #image-gallery {
-    margin: 10%;
+    position: relative;
+    background-color: rgb(169, 169, 169);
+    width: 100%;
+    top: 25vh;
+    z-index: 1;
+}
+
+#fav-paintings-section, #fav-fruits-section, #fav-vegetables-section {
+    scroll-margin-top: 25vh;
+    text-align: center;
+    height: 65%;
 }
 
 #up-arrow {
@@ -75,7 +88,5 @@ hr {
     position: fixed;
     left: 2%;
     bottom: 2%;
+    z-index: 3;
 }
-
-
-/* Add code here */
