@@ -1,0 +1,72 @@
+* {
+    background-color: rgb(69, 69, 69);
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: baseline;
+
+    background-color: rgb(169, 169, 169);
+    height: 75vh;
+}
+
+div > p {
+    background-color: rgb(255, 255, 255, 0);
+    color: white;
+    font-size: 1.25rem;
+}
+
+#first {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/d/db/Kamala_Khan.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original');
+    background-size: cover;
+    width: 20%;
+    height: 37%;
+    align-self: flex-start;
+}
+
+#second {
+    background-image: url('https://oyster.ignimgs.com/mediawiki/apis.ign.com/adventure-time-hey-ice-king/a/a6/JakeHeadshot.jpg');
+    background-size: cover;
+    background-color: aqua;
+    width: 20%;
+    height: 33%;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+#third {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeyRmHbwNngZqWI-Pnq114Yxqgmn7nk17Lv3mNvoJCdg&s=10');
+    background-size: cover;
+    width: 20%;
+    height: 31%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: center;
+}
+
+#fourth {
+    background-image: url('https://static.wikia.nocookie.net/legendsofthemultiuniverse/images/e/e7/Spinel.png');
+    background-size: cover;
+    width: 20%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#fifth {
+    background-image: url('https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9f/Mister_Fantastic_Infobox.png');
+    background-size: cover;
+    width: 20%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
