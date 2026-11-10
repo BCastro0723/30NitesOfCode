@@ -1,0 +1,29 @@
+* {
+    background-color: rgb(69, 69, 69);
+    margin: 1%;
+    box-sizing: border-box;
+}
+.flexbox-container {
+    display: flex;
+    height: 75vh;
+}
+.flex-item {
+    flex-basis: 200px;
+    /* flex-grow: 0; */
+    flex-shrink: 0;
+    background-size: contain;
+}
+#first {
+    /* flex-grow: 2; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUKuOquHDeUgrLcIetSA4g-uf7BslxaoUidDwDWy3qwg&s=10');
+}
+#second {
+    background-image: url('https://static.wikia.nocookie.net/minecraft/images/a/a9/IMG_1496.PNG');
+}
+#third {
+    /* flex-grow: 1; */
+    background-image: url('https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20261004163310/Minecraft-Sand-Block.jpg');
+}
+#fourth {
+    background-image: url('https://i.pinimg.com/474x/99/85/85/9985851e1d9b2a7dfd24f9e0a56c261f.jpg');
+}
