@@ -2,9 +2,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: rgb(169, 169, 169);
 }
 .flex-container {
     display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
     /* flex-wrap: nowrap; */
     /* flex-wrap: wrap; */
     flex-wrap: wrap-reverse;

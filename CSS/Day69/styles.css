@@ -10,7 +10,8 @@
 .flex-item {
     flex-basis: 200px;
     /* flex-grow: 0; */
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+    flex: 1;
     background-size: contain;
 }
 #first {
