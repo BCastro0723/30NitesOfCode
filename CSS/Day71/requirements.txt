@@ -1,0 +1,25 @@
+Time build a Pokémon card collection, 
+    the kind you'd want to show off to your friends! 🃏
+
+You'll start with a set of Pokémon cards that 
+    already have a flip animation built in!
+
+Click any card to flip it over and reveal the Pokémon. 
+    Your job is to use flexbox to lay them out correctly.
+
+In the styles.css file, use what you've learned to 
+    arrange the cards. Things to think about include:
+
+    - Use display: flex and flex-wrap on .card-collection 
+      so cards wrap onto new lines when there isn't 
+      enough room.
+    - Using justify-content to space the cards evenly 
+      across each row.
+    - Using gap to add breathing room between the cards.
+
+The flip animation is already handled for you! 
+    Focus purely on the layout! And if you resize the 
+    preview window, see how your cards gracefully 
+    collapse into multiple columns! ♥️
+
+Don't forget to share a screenshot of your finished collection on Twitter and tag @codedex_io!
