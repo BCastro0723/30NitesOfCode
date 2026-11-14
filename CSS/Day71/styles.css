@@ -27,7 +27,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 2rem;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 
 /* --- card flip mechanics (don't change these!) --- */
