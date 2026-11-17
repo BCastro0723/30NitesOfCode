@@ -7,11 +7,9 @@
     <body>
         <header>
             <nav class="header-nav-bar">
-                <ul>
-                    <li><a href="#about-section">About</a></li>
-                    <li><a href="#projects-section">Projects</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
-                </ul>
+                <a href="#about-section" class="nav-section-option">About</a>
+                <a href="#projects-section" class="nav-section-option">Projects</a>
+                <a href="#contact-section" class="nav-section-option">Contact</a>
             </nav>
         </header>
         <main>
@@ -20,26 +18,30 @@
                     <h1>About Myself &#129706</h1>
                 </div>
                 <div class="flexbox-container">
-                    <div class="flex-item-text">
-                        <h2>Hello, My name is Bryan</h2>
-                        <h3>Aspiring Software Engineer</h3>
-                        <p>
-                            Born and raised in Texas. I have a decent background in
-                            software development, but my friends and Codédex have inspired
-                            me to continue on my learning journey by teaching myself web
-                            development. As of the making of this site, I am currently on
-                            Day 73 of my personal 30NitesOfCode challenge with Codédex (Yes,
-                            I understand the challenge is meant to end after 30 days, but not
-                            only are we having fun, but we're also learning so much in the 
-                            process). Some of my hobbies include collecting Funko, running and 
-                            racing, and coding!
-                        </p>
+                    <div class="flex-item">
+                        <div class="text-container">
+                            <h2>Hello, My name is Bryan</h2>
+                            <h3>Aspiring Software Engineer</h3>
+                            <p>
+                                Born and raised in Texas. I have a decent background in
+                                software development, but my friends and Codédex have inspired
+                                me to continue on my learning journey by teaching myself web
+                                development. As of the making of this site, I am currently on
+                                Day 73 of my personal 30NitesOfCode challenge with Codédex (Yes,
+                                I understand the challenge is meant to end after 30 days, but not
+                                only are we having fun, but we're also learning so much in the 
+                                process). Some of my hobbies include collecting Funko, running and 
+                                racing, and coding!
+                            </p>
+                        </div>
                     </div>
-                    <div class="flex-item-image">
-                        <img
-                            src=""
-                            alt="Self Portrait"
-                        />
+                    <div class="flex-item">
+                        <div class="image-container">
+                            <img
+                                src="./assets/portraits/myself_frozen.JPEG"
+                                alt="Self Portrait"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -48,81 +50,100 @@
                     <h1>My Projects &#128187</h1>
                 </div>
                 <div class="flexbox-container">
-                    <div class="flex-item-image">
-                        <img 
-                            src=""
-                            alt="Project Media 1"
-                        />
+                    <div class="flex-item">
+                        <div class="image-container">
+                            <img 
+                                src="./assets/project_screenshots/restaurant_menu.png"
+                                alt="Project Media 1"
+                            />
+                        </div>
                     </div>
-                    <div class="flex-item-text">
-                        Project 1/4
-                        <br>
-                        <a href="https://github.com/BCastro0723/30NitesOfCode/tree/main/Day30" target="_blank">30NitesOfCode HTML Project - Restaurant menu</a>
-                        <p>
-                            Upon completion of the 30NitesOfCode challange on Codédex, we've been tasked to put our HTML
-                            skills to the test by creating a ficiontal restaurant webpage! This challange focuses on HTML
-                            elements, structure, and some inline formattting before we learn about CSS. 
-                        </p>
-                    </div>
-                </div>
-                <div class="flexbox-container">
-                    <div class="flex-item-image">
-                        <img 
-                            src=""
-                            alt="Project Media 2"
-                        />
-                    </div>
-                    <div class="flex-item-text">
-                        Project 2/4
-                        <br>
-                        <a href="https://github.com/BCastro0723/ASLAI-Senior-Capstone-Project.git" target="_blank">American Sign Language using Artificial Intelligence (ASLAI)</a>
-                        <p>
-                            ASLAI combines computer vision and machine learning to create an artificial intelligence model
-                            that recognizes the American sign Language (ASL) alphabet. With the use of convolutional neural 
-                            networks, we were able to train a model given a dataset of hand gestures to predict the letter 
-                            the user was signing. The model was then imported to a webpage we created to allow users to have
-                            a more apealing and easier to navigate UI.
-                        </p>
+                    <div class="flex-item">
+                        <div class="text-container">
+                            Project 1/4
+                            <br>
+                            <a href="https://github.com/BCastro0723/30NitesOfCode/tree/main/Day30" target="_blank">30NitesOfCode HTML Project - Restaurant menu</a>
+                            <p>
+                                Upon completion of the 30NitesOfCode challange on Codédex, we've been tasked to put our HTML
+                                skills to the test by creating a ficiontal restaurant webpage! This challange focuses on HTML
+                                elements, structure, and some inline formattting before we learn about CSS. 
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <hr>
                 <div class="flexbox-container">
-                    <div class="flex-item-image">
-                        <img 
-                            src=""
-                            alt="Project Media 3"
-                        />
+                    <div class="flex-item">
+                        <div class="image-container">
+                            <img 
+                                src="./assets/project_screenshots/aslai_visual.png"
+                                alt="Project Media 2"
+                            />
+                        </div>
                     </div>
-                    <div class="flex-item-text">
-                        Project 3/4
-                        <br>
-                        <a href="https://github.com/YoungMacLord/The-Game.git" target="_blank">The Game - A Shoot-'Em-Up</a>
-                        <p>
-                            Primarily written in C# using the Unity engine, my friends and I teamed up to
-                            create our own shoot-'em-up (SCHMUP) game. This project showcases our understanding
-                            of event handling, object creation/deletion, data management (to keep high scores 
-                            saved locally), and object collisions.
-                        </p>
+                    <div class="flex-item">
+                         <div class="text-container">
+                            Project 2/4
+                            <br>
+                            <a href="https://github.com/BCastro0723/ASLAI-Senior-Capstone-Project.git" target="_blank">American Sign Language using Artificial Intelligence (ASLAI)</a>
+                            <p>
+                                ASLAI combines computer vision and machine learning to create an artificial intelligence model
+                                that recognizes the American sign Language (ASL) alphabet. With the use of convolutional neural 
+                                networks, we were able to train a model given a dataset of hand gestures to predict the letter 
+                                the user was signing. The model was then imported to a webpage we created to allow users to have
+                                a more apealing and easier to navigate UI.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <hr>
                 <div class="flexbox-container">
-                    <div class="flex-item-image">
-                        <img 
-                            src=""
-                            alt="Project Media 4"
-                        />
+                    <div class="flex-item">
+                        <div class="image-container">
+                            <img 
+                                src="./assets/project_screenshots/the_game_homescreen.png"
+                                alt="Project Media 3"
+                            />
+                        </div>
                     </div>
-                    <div class="flex-item-text">
-                        Project 4/4
-                        <br>
-                        <a href="https://github.com/BCastro0723/Spectrogram-Genre-Recognition-Project.git" target="_blank">Music Genrer Recognition with Spectrograms</a>
-                        <p>
-                            With the use of machine learning, this project aims to create and train an artificial intelligence 
-                            model that can accurately predict the genre of a song given the correpsonding song's spectrogram. 
-                            An existing dataset on GitHub was used for this project, and the model was trained using both Google 
-                            Colab and Jupyter Notebook. As of the last update to the project, the model has ~60% accuracy. A 
-                            report with my findings, confusion matricies, and list of short comings as well as possible improvments
-                            that can be made to increase the model accuracy are available in the project repository.
-                        </p>
+                    <div class="flex-item">
+                        <div class="text-container">
+                            Project 3/4
+                            <br>
+                            <a href="https://github.com/YoungMacLord/The-Game.git" target="_blank">The Game - A Shoot-'Em-Up</a>
+                            <p>
+                                Primarily written in C# using the Unity engine, my friends and I teamed up to
+                                create our own shoot-'em-up (SCHMUP) game. This project showcases our understanding
+                                of event handling, object creation/deletion, data management (to keep high scores 
+                                saved locally), and object collisions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="flexbox-container">
+                    <div class="flex-item">
+                        <div class="image-container">
+                            <img 
+                                src=""
+                                alt="Project Media 4"
+                            />
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <div class="text-container">
+                            Project 4/4
+                            <br>
+                            <a href="https://github.com/BCastro0723/Spectrogram-Genre-Recognition-Project.git" target="_blank">Music Genrer Recognition with Spectrograms</a>
+                            <p>
+                                With the use of machine learning, this project aims to create and train an artificial intelligence 
+                                model that can accurately predict the genre of a song given the correpsonding song's spectrogram. 
+                                An existing dataset on GitHub was used for this project, and the model was trained using both Google 
+                                Colab and Jupyter Notebook. As of the last update to the project, the model has ~60% accuracy. A 
+                                report with my findings, confusion matricies, and list of short comings as well as possible improvments
+                                that can be made to increase the model accuracy are available in the project repository.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -131,40 +152,46 @@
                     <h1>Contact Me &#128231</h1>
                 </div>
                 <div class="flexbox-container">
-                    <a href="https://www.codedex.io/@TexMexManiac2" target="_blank" class="flex-item">
-                        <img 
-                            src="./assets/logos/coin-cropped.png"
-                            alt="Codédex Account Link"
-                        />
-                    </a>
-                    <a href="https://github.com/BCastro0723" target="_blank" class="flex-item">
-                        <img
-                            src="./assets/logos/GitHub_Invertocat_Black_Clearspace.png"
-                            alt="GitHub Icon"
-                            class="flex-item"
-                        />
-                    </a>
-                    <a href="https://www.tiktok.com/@texmexmaniac?is_from_webapp=1&sender_device=pc" target="_blank" class="flex-item">
-                        <img 
-                            src="./assets/logos/TikTok_Icon_Black_Circle.png"
-                            alt="TikTok Account Link"
-                            class="flex-item"
-                        />
-                    </a>
-                    <a href="https://www.instagram.com/texmexmaniac/" target="_blank" class="flex-item">
-                        <img 
-                            src="./assets/logos/Instagram_Glyph_Gradient.png"
-                            alt="Instagram Account Link"
-                            class="flex-item"
-                        />
-                    </a>
-                    <a href="https://www.linkedin.com/in/bryan-castro-687959249/" target="_blank" class="flex-item">
-                        <img 
-                            src="./assets/logos/InBug-Black.png"
-                            alt="LinkedIn Account Link"
-                            class="flex-item"
-                        />
-                    </a>
+                    <div class="flex-item">
+                        <a href="https://www.codedex.io/@TexMexManiac2" target="_blank">
+                            <img 
+                                src="./assets/logos/coin-cropped.png"
+                                alt="Codédex Account Link"
+                            />
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://github.com/BCastro0723" target="_blank">
+                            <img
+                                src="./assets/logos/GitHub_Invertocat_Black_Clearspace.png"
+                                alt="GitHub Account Link"
+                            />
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://www.tiktok.com/@texmexmaniac?is_from_webapp=1&sender_device=pc" target="_blank">
+                            <img 
+                                src="./assets/logos/TikTok_Icon_Black_Circle.png"
+                                alt="TikTok Account Link"
+                            />
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://www.instagram.com/texmexmaniac/" target="_blank">
+                            <img 
+                                src="./assets/logos/Instagram_Glyph_Gradient.png"
+                                alt="Instagram Account Link"
+                            />
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://www.linkedin.com/in/bryan-castro-687959249/" target="_blank">
+                            <img 
+                                src="./assets/logos/InBug-Black.png"
+                                alt="LinkedIn Account Link"
+                            />
+                        </a>
+                    </div>
                 </div>
             </section>
         </main>
