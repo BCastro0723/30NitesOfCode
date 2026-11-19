@@ -19,8 +19,12 @@ header {
     justify-content: space-around;
 }
 
-a {
-    transition: background-color 0.5 ease-in-out;
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
 }
 
 a:hover {
