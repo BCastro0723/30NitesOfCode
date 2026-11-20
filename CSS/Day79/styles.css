@@ -1,0 +1,19 @@
+* {
+    background-color: rgb(100, 100, 100);
+}
+
+li:nth-child(odd) {
+    border: 2px solid gold;
+}
+
+li:nth-child(even) {
+    border: 2px dotted purple;
+}
+
+li:first-child {
+    font-size: xx-large;
+}
+
+li:last-child {
+    font-size: xx-small;
+}
